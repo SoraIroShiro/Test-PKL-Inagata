@@ -53,7 +53,45 @@
             width: 80px;
             height: 80px;
         }
-        
+        .card-title {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .cardtag {
+            margin-top: 10px;
+            padding: 7px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #642ABB;
+            background-color: #dccaf7;
+            width: 140px;
+        }
+        .card-text {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        .showall {
+            font-size: 24;
+            font-weight: 400;
+            color: #642ABB;
+        }
+        .showall:hover {
+            color: #2a0168;
+        }
+        .card-gal1 {
+            background-color: #642ABB;
+        }
+        .card-gal2 {
+            background-color: #F9BB50
+        }
+        .card-gal3 {
+            background-color: #F63FCF
+        }
+        .gal-title {
+            font-size: 24;
+            font-weight: 500;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -146,32 +184,36 @@
     <!-- Articles Section -->
     <section class="articles bg-light">
         <div class="container">
-            <h2 class="text-center mb-4">Artikel</h2>
+            <h2 class="text-center">Artikel</h2>
+            <p class="text-center mb-4">Artikel terbaru seputar pendidikan</p>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="article-image.jpg" class="card-img-top" alt="Article Image">
+                    <div class="">
+                        <img src="assets/img/imgclass.jpg" class="img2 card-img-top rounded-4" alt="Article Image">
+                        <p class="cardtag rounded-2">12 Desember 2023</p>
                         <div class="card-body">
-                            <h5 class="card-title">Gotong Royong di Sekolah, Bentuk Anak Segera Beradaptasi</h5>
-                            <p class="card-text">12 Desember 2023</p>
+                            <h5 class="card-title mt-3">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
+                            <p class="card-text mt-3">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="article-image.jpg" class="card-img-top" alt="Article Image">
+                    <div class="">
+                        <img src="assets/img/imgclass.jpg" class="img2 card-img-top rounded-4" alt="Article Image">
+                        <p class="cardtag rounded-2">12 Desember 2023</p>
                         <div class="card-body">
-                            <h5 class="card-title">Gotong Royong di Sekolah, Bentuk Anak Segera Beradaptasi</h5>
-                            <p class="card-text">12 Desember 2023</p>
+                            <h5 class="card-title mt-3">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
+                            <p class="card-text mt-3">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="article-image.jpg" class="card-img-top" alt="Article Image">
+                    <div class="">
+                        <img src="assets/img/imgclass.jpg" class="img2 card-img-top rounded-4" alt="Article Image">
+                        <p class="cardtag rounded-2">12 Desember 2023</p>
                         <div class="card-body">
-                            <h5 class="card-title">Gotong Royong di Sekolah, Bentuk Anak Segera Beradaptasi</h5>
-                            <p class="card-text">12 Desember 2023</p>
+                            <h5 class="card-title mt-3">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
+                            <p class="card-text mt-3">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                         </div>
                     </div>
                 </div>
@@ -179,6 +221,66 @@
         </div>
     </section>
 
+    <section class="gallery bg-light mt-3">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col">
+                 <div class="p-3">
+                    <h2>Galeri Sekolah</h2>
+                 </div>
+                </div>
+                <div class="col">
+                  <div class="p-3">
+                    <p class="text-end mb-4"><a href="" class="showall" style="text-decoration: none;" >Lihat Semua ></a></p>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-gal1 card rounded-4">
+                        <img src="assets/img/gal1.png" class="card-img-top rounded-top-4" alt="Article Image">
+                        <a href="#" class="card-body row">
+                            <div class="col">
+                                <p class="gal-title card-title">Belajar Mengajar</p>
+                            </div>
+                            <div class="col text-end">
+                                <img class="" src="assets/img/arrow-right.png" alt="right">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-gal2 card rounded-4">
+                        <img src="assets/img/gal2.png" class="card-img-top rounded-top-4" alt="Article Image">
+                        <a href="#" class="card-body row">
+                            <div class="col">
+                                <p class="gal-title card-title">Sharing Session</p>
+                            </div>
+                            <div class="col text-end">
+                                <img class="" src="assets/img/arrow-right.png" alt="right">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-gal3 card rounded-4">
+                        <img src="assets/img/gal3.png" class="card-img-top rounded-top-4" alt="Article Image">
+                        <a href="#" class="card-body row">
+                            <div class="col">
+                                <p class="gal-title card-title">Kelulusan</p>
+                            </div>
+                            <div class="col text-end">
+                                <img class="" src="assets/img/arrow-right.png" alt="right">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
